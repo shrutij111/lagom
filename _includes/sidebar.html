@@ -1,11 +1,10 @@
 <nav>
   <h1>Hi.</h1>
   <a href="/">
-    {% if site.data.theme.social.gravatar %}
-    <img src="https://exploregram.com/wp-content/uploads/2016/04/Most-people-might-not-find-body-hair-the-most-pleasing-thing-to-look-at-but-I-laugh-at-them-all-as-t.jpg/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="My photo"/>
-    {% else %}
-    <img src="/logo.png" id="logo" alt="Blog logo"/>
-    {% endif %}
+    <!{% if site.data.theme.social.gravatar %}
+    <img src="https://exploregram.com/wp-content/uploads/2016/04/Most-people-might-not-find-body-hair-the-most-pleasing-thing-to-look-at-but-I-laugh-at-them-all-as-t.jpg/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="My photo"/    {% else %}>
+    <img src="/logo.jpg" id="logo" alt="Blog logo"/>
+    <!{% endif %}>
   </a>
   <h2>This is<a href="/">{{ site.data.theme.name }}</a>.</h2>
   <div id="bio">
