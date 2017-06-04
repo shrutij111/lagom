@@ -1,12 +1,12 @@
 # Theme customization - please change from the defaults!
 
 # Color for top bar, links, etc
-highlight_color: '#8a719a'
+highlight_color: '#c896b1'
 
 # Profile links on the left sidebar, leave blank to ignore
 social:
   github: shrutijo
-  #facebook: shruti.joshi9400
+  facebook: shruti.joshi9400
   
 
 # "Hi, I'm _______"
