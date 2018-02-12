@@ -119,6 +119,7 @@
 
 /* #Images
 ================================================== */
+img { border-radius: 50%; }
 
 	img.scale-with-grid {
 		max-width: 100%;
